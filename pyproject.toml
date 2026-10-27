@@ -1,0 +1,19 @@
+[project]
+name = "dm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nguyễn Thanh Trúc", email = "nguyenthanhtruc.9a4.28@gmail." }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter-book>=2.1.7",
+]
+
+[project.scripts]
+dm = "dm:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
